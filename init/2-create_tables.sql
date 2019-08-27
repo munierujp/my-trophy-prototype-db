@@ -10,9 +10,9 @@ CREATE TABLE `users` (
   PRIMARY KEY (`id`)
 ) ENGINE = InnoDB;
 
--- trophys
-DROP TABLE IF EXISTS `trophys`;
-CREATE TABLE `trophys` (
+-- trophies
+DROP TABLE IF EXISTS `trophies`;
+CREATE TABLE `trophies` (
   `id` INT unsigned NOT NULL AUTO_INCREMENT,
   `title` VARCHAR(1024) NOT NULL, -- TODO: サイズは仮
   `description` VARCHAR(1024), -- TODO: サイズは仮
