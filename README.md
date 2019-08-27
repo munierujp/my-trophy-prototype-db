@@ -20,3 +20,6 @@ $ docker-compose start
 # remove
 $ docker-compose down
 ````
+
+## Table structure
+See [init/2-create_tables.sql](init/2-create_tables.sql)
