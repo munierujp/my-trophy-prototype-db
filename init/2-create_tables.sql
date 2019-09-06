@@ -15,7 +15,7 @@ DROP TABLE IF EXISTS `trophies`;
 CREATE TABLE `trophies` (
   `id` INT unsigned NOT NULL AUTO_INCREMENT,
   `title` VARCHAR(13) NOT NULL,
-  `description` VARCHAR(1024), -- TODO: サイズは仮
+  `description` VARCHAR(280),
   `user_id` INT unsigned NOT NULL,
   `created_at` DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
   `updated_at` DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
